@@ -1,0 +1,35 @@
+/* 
+    Document   : photocredit-style
+    Created on : Feb 13, 2014, 12:15:52 PM
+    Author     : SATHYA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.img-cont{
+	position:relative;
+}
+.img-cont .photo-credit {
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        z-index: 3;
+        padding: 4px 4px;
+        line-height: 1.8;
+        font-size: 8pt;
+        font-family: verdana;
+        color: #000;
+        filter: alpha(opacity=60);
+        -moz-opacity: .6;
+        -khtml-opacity: .6;
+        opacity: .6;
+        background-color: #000;
+        color:#fff;
+}
+#content .img-cont .photo-credit a {
+         color:#C2C2C2;;
+         text-decoration:none;
+         border:none;
+}
+#content .img-cont .photo-credit a:hover {
+         color:#fff;
+}
